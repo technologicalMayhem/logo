@@ -3,9 +3,22 @@
     <clipPath id="cut-off-top">
       <rect x="0" y="0" width="20" height="20" />
     </clipPath>
+    <linearGradient id="bg" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#ffffb5"/>
+      <stop offset="7.33%" stop-color="#fef372"/>
+      <stop offset="22%" stop-color="#f6d860"/>
+      <stop offset="27.67%" stop-color="#f3bf59"/>
+      <stop offset="39%" stop-color="#ed894b"/>
+      <stop offset="45%" stop-color="#e47346"/>
+      <stop offset="57%" stop-color="#d53a42"/>
+      <stop offset="63.33%" stop-color="#c93a51"/>
+      <stop offset="76%" stop-color="#b1385e"/>
+      <stop offset="82%" stop-color="#97385d"/>
+      <stop offset="94%" stop-color="#6a324f"/>
+    </linearGradient>
   </defs>
-  <line x1="1" y1="20" x2="1" y2="0" stroke="white" stroke-width="2"/>
-  <line x1="19" y1="0" x2="19" y2="20" stroke="white" stroke-width="2"/>
-  <polyline points="1 0 10 20 19 0" fill="none" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" clip-path="url(#cut-off-top)"/>
-  <path d="M 3 0 H 17 L 16.1 2 H 11 V 13.25 L 10 15.5 L 9 13.25 V 2 H 3.9 Z" fill="white"/>
+  <path d="M 0 0 H 2 V 20 H 0 Z" fill="url(#bg)"/>
+  <path d="M 18 0 H 20 V 20 H 18 Z" fill="url(#bg)"/>
+  <polyline points="1 0 10 20 19 0" fill="none" stroke="url(#bg)" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" clip-path="url(#cut-off-top)"/>
+  <path d="M 3 0 H 17 L 16.1 2 H 11 V 13.25 L 10 15.5 L 9 13.25 V 2 H 3.9 Z" fill="url(#bg)"/>
 </svg>
