@@ -2,9 +2,48 @@
 <html lang="">
   <head>
     <meta charset="utf-8">
+    <style>
+      html {
+        display: flex;
+        height: 100%;
+        background: black;
+      }
+
+      body {
+        flex-grow: 1;
+        display: flex;
+      }
+
+      .logo-set {
+        display: flex;
+        justify-content: space-around;
+        flex-grow: 1;
+      }
+
+      .logo {
+        width: 1em;
+        padding: .125em;
+      }
+
+    </style>
     <title></title>
   </head>
-  <body style="background: black;">
-    <img src="gpt-logo.svg" style="padding: 1cm;width: 100px;"/>
+  <body>
+    <div style="font-size: 1em" class="logo-set">
+      <img class="logo" src="logo-slim.svg"/>
+      <img class="logo" src="logo-wide.svg"/>
+    </div>
+    <div style="font-size: 4em" class="logo-set">
+      <img class="logo" src="logo-slim.svg"/>
+      <img class="logo" src="logo-wide.svg"/>
+    </div>
+    <div style="font-size: 8em" class="logo-set">
+      <img class="logo" src="logo-slim.svg"/>
+      <img class="logo" src="logo-wide.svg"/>
+    </div>
+    <div style="font-size: 16em" class="logo-set">
+      <img class="logo" src="logo-slim.svg"/>
+      <img class="logo" src="logo-wide.svg"/>
+    </div>
   </body>
 </html>

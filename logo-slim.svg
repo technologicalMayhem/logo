@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="cut-off-top">
+      <rect x="0" y="0" width="20" height="20" />
+    </clipPath>
+  </defs>
+  <line x1="0.5" y1="20" x2="0.5" y2="0" stroke="white" stroke-width="1"/>
+  <line x1="19.5" y1="0" x2="19.5" y2="20" stroke="white" stroke-width="1"/>
+  <polyline points=".5 0 10 20 19.5 0" stroke="white" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" clip-path="url(#cut-off-top)"/>
+  <path d="M 1.5 0 H 18.5 L 18 1 H 10.5 V 17 L 10 18 L 9.5 17 V 1 H 2 Z" fill="white" />
+</svg>
