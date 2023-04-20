@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-  <line x1="0.5" y1="20" x2="0.5" y2="0" stroke="white" stroke-width="1"/>
-  <line x1="19.5" y1="0" x2="19.5" y2="20" stroke="white" stroke-width="1"/>
-  <polyline points=".5 0 10 20 19.5 0" fill="none" stroke="white" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel"/>
-  <path d="M 1.5 0 H 18.5 L 18 1 H 10.5 V 17 L 10 18 L 9.5 17 V 1 H 2 Z" fill="white" />
+  <line x1="1" y1="20" x2="1" y2="0" stroke="white" stroke-width="2"/>
+  <line x1="19" y1="0" x2="19" y2="20" stroke="white" stroke-width="2"/>
+  <polyline points="1 0 10 20 19 0" fill="none" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel"/>
+  <path d="M 3 0 H 17 L 16 2 H 11 V 13 L 10 15 L 9 13 V 2 H 4 Z" fill="white" />
 </svg>
