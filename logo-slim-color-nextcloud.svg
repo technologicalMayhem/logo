@@ -4,17 +4,17 @@
       <rect x="0" y="0" width="20" height="20" />
     </clipPath>
     <linearGradient id="bg" x1="20" y1="0" x2="0" y2="20" gradientUnits="userSpaceOnUse">
-      <stop offset="11%" stop-color="#4c842e"/>
-      <stop offset="18.82%" stop-color="#317c42"/>
-      <stop offset="26.64%" stop-color="#337052"/>
-      <stop offset="34.45%" stop-color="#346555"/>
-      <stop offset="42.27%" stop-color="#335b54"/>
-      <stop offset="50.09%" stop-color="#31514f"/>
-      <stop offset="57.91%" stop-color="#2e474a"/>
-      <stop offset="65.73%" stop-color="#2b3e44"/>
-      <stop offset="73.55%" stop-color="#27353d"/>
-      <stop offset="81.36%" stop-color="#232c37"/>
-      <stop offset="97%" stop-color="#1d1a2d"/>
+      <stop offset="0%" stop-color="#90cdf4"/>
+      <stop offset="8%" stop-color="#6dbdf2"/>
+      <stop offset="24%" stop-color="#4299e1"/>
+      <stop offset="29%" stop-color="#3c91db"/>
+      <stop offset="39%" stop-color="#3182ce"/>
+      <stop offset="44.67%" stop-color="#2f7bc4"/>
+      <stop offset="56%" stop-color="#2b6cb0"/>
+      <stop offset="62.67%" stop-color="#2d63a0"/>
+      <stop offset="76%" stop-color="#2c5282"/>
+      <stop offset="82%" stop-color="#2c4d78"/>
+      <stop offset="94%" stop-color="#2a4365"/>
     </linearGradient>
   </defs>
   <path d="M 0 0 H 1 V 20 H 0 Z" fill="url(#bg)" />
